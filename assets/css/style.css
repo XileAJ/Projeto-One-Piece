@@ -21,11 +21,12 @@ main .personagem{
 }
 main .personagem.selecionado{
     display: block;
+    transition: opacity 0.3s ease;
 }
 
 main .personagem .imagem{
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     object-fit: cover;
 }
 
@@ -79,7 +80,7 @@ main .personagem .imagem{
 }
 .botoes .botao{
     border: none;
-    background: none;
+    background: #000000;
     cursor: pointer;
     border-radius: 50%;  
 }
@@ -93,4 +94,9 @@ main .personagem .imagem{
 .botoes .botao.selecionado{
     transform: scale(1.2);
     box-shadow: 0 0 10px #d9d9d9;
+}
+
+
+.botao, .personagem {
+    transition: all 0.3s ease; /* Define a propriedade 'transition' para suavizar as mudanças de estilo durante 0.3 segundos com uma transição suave ('ease') */
 }
