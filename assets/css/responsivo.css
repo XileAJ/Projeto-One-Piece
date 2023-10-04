@@ -25,36 +25,63 @@
     }
     .botoes{
         flex-direction: row;
-        align-items: flex-end;
-        width: 100%;
-        padding: 30px   ;
+        padding: 35px;
+        width: 200px;
+        
     }
     .botoes .botao img{
-        max-width: 60px;
-        height: auto;
+        max-width: 80px;
+        height: auto; 
+    }
+    .lista1, .lista2, li{
+        padding-bottom: 35px;
     }
 }
 
 @media (max-width: 425px){
     main .personagem .imagem{
-        height: 50%;  
+        height: 45%;  
     }
     .conteudo .logo{
         width: 170px;
         height: 75px;
     }
     .conteudo{
-        top: -15%;
+        top: -22%;
+        max-height: 280px;
+        
     }
     .conteudo .nome-personagem{
-        font-size: 24px;
+        font-size: 25px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
+    .conteudo .descricao{
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    .lista1,.lista2{
+        display: flex;
+        margin: 0;
+        padding: 0;   
+    }
+    .lista1, .lista2, li{
+        padding-bottom: 4px;
+        padding-top: 4px;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+
     .botoes{
-        padding: 20px;
-        top: -7%;
+      flex-direction: column;
+      width: 100%;
+      top: 35%;
+      gap: 0;
+      
+      
+
     }
     .botoes .botao img{
-        max-width: 50px;
+        max-width: 65px;
+        
        
     }
 }

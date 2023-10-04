@@ -12,7 +12,7 @@ main::after{
     width: 80vw;
 
     background: linear-gradient(
-        -233deg, #000 40%, rgba(0, 0, 0, 0) 65%) no-repeat;
+        -233deg, #000 22%, rgba(0, 0, 0, 0) 65%) no-repeat;
 }
 
 main .personagem{
@@ -64,17 +64,20 @@ main .personagem .imagem{
     width: 230px;
     margin-bottom: 55px;
 }
+.lista1, .lista2, li{
+    padding-bottom: 20px;
+}
+
 
 .botoes{
     position: fixed;
     top: 0;
     right: 0;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
     min-height: 100vh;
-    width: 180px;
+    width: 230px;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.3);
 }
@@ -83,12 +86,14 @@ main .personagem .imagem{
     background: #000000;
     cursor: pointer;
     border-radius: 50%;  
+    object-fit: cover;
 }
 
 .botao img{
     width: 90px;
     height: 86px;
     border-radius: 50%;  
+    
 }
 
 .botoes .botao.selecionado{
