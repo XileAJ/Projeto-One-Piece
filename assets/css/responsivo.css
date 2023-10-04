@@ -40,15 +40,20 @@
 
 @media (max-width: 425px){
     main .personagem .imagem{
-        height: 45%;  
+        height: 50%;  
+        object-fit: cover;
     }
+
     .conteudo .logo{
         width: 170px;
         height: 75px;
     }
     .conteudo{
-        top: -22%;
-        max-height: 280px;
+        top: -28%;
+        max-height: 300px;
+        
+        padding: 5px;
+        width: 100%;
         
     }
     .conteudo .nome-personagem{
@@ -57,6 +62,8 @@
     }
     .conteudo .descricao{
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        max-width: 100%;
+       
     }
     .lista1,.lista2{
         display: flex;
