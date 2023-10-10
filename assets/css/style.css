@@ -64,8 +64,13 @@ main .personagem .imagem{
     width: 230px;
     margin-bottom: 55px;
 }
-.lista1, .lista2, li{
-    padding-bottom: 20px;
+.lista1, .lista2, .lista3, .lista4, .lista5, .lista6, li{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 .botoes{
