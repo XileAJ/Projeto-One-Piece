@@ -8,7 +8,7 @@ const personagens = document.querySelectorAll(".personagem");
 
 botoes.forEach((botao, indice) => {
   botao.addEventListener("click", () => {
-    //passo 3 - verificar se já existe um botao selecionado, se sim, deve remover a seleção dele
+    //passo 3 - verificar se já existe um botao selecionado, se sim, deve removerLista() {} a seleção dele
     const botaoSelecionado = document.querySelector(".botao.selecionado");
     botaoSelecionado.classList.remove("selecionado");
 
@@ -28,7 +28,7 @@ botoes.forEach((botao, indice) => {
         // Tocar a música associada ao botão clicado
         musica.play();
 
-    //objetivo2 - passo 3 - verificar se já existe um personagem selecionado, se sim, remover a seleção dele
+    //objetivo2 - passo 3 - verificar se já existe um personagem selecionado, se sim, removerLista() {} a seleção dele
     const personagemSelecionado = document.querySelector(
       ".personagem.selecionado"
     );
@@ -37,4 +37,48 @@ botoes.forEach((botao, indice) => {
     //objetivo2 - passo 2 - adicionar a classe "selecionado" no personagem que o usuario selecionou
     personagens[indice].classList.add("selecionado");
   });
+  
 });
+
+
+//selecionar botões next e previous
+
+const botaoNext = document.querySelector('.botaonext');
+const botaoPrevious = document.querySelector('.botaoprevious');
+const listas = [
+    document.querySelectorAll('.lista.lista1, .lista.lista2'),
+    document.querySelectorAll('.lista.lista3, .lista.lista4'),
+    document.querySelectorAll('.lista.lista5, .lista.lista6')
+];
+
+let paginaAtual = 0;
+
+function mostrarPagina(pagina) {
+    listas.forEach((lista, index) => {
+        lista.forEach(item => {
+            if (index === pagina) {
+                item.style.display = 'block'; 
+            } else {
+                item.style.display = 'none';
+            }
+        });
+    });
+}
+
+mostrarPagina(paginaAtual);
+
+botaoNext.addEventListener('click', () => {
+    if (paginaAtual < listas.length - 1) {
+        paginaAtual++;
+        mostrarPagina(paginaAtual);
+    }
+});
+
+
+botaoPrevious.addEventListener('click', () => {
+    if (paginaAtual > 0) {
+        paginaAtual--;
+        mostrarPagina(paginaAtual);
+    }
+});
+

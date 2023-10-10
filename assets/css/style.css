@@ -68,7 +68,6 @@ main .personagem .imagem{
     padding-bottom: 20px;
 }
 
-
 .botoes{
     position: fixed;
     top: 0;
@@ -81,6 +80,7 @@ main .personagem .imagem{
     align-items: center;
     background-color: rgba(0, 0, 0, 0.3);
 }
+
 .botoes .botao{
     border: none;
     background: #000000;
@@ -93,7 +93,7 @@ main .personagem .imagem{
     width: 90px;
     height: 86px;
     border-radius: 50%;  
-    
+        
 }
 
 .botoes .botao.selecionado{
@@ -101,7 +101,48 @@ main .personagem .imagem{
     box-shadow: 0 0 10px #d9d9d9;
 }
 
+.personagens01{
+    display: flex;
+    width: 100%;
+}
 
 .botao, .personagem {
     transition: all 0.3s ease; /* Define a propriedade 'transition' para suavizar as mudanças de estilo durante 0.3 segundos com uma transição suave ('ease') */
+}
+
+.paginacao{
+    position: fixed;
+    bottom:0;
+    display: flexbox;
+    width: 100%;
+    margin-bottom: 15px;
+    padding-left: 1190px;
+}
+.paginacao .botaonext{
+    background-image: url('../images/right-arrow.png');
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+
+    
+}
+.botaonext{
+    background: none;
+    border: none;
+    margin-left: 50px;
+}
+.paginacao .botaoprevious{
+    background-image: url('../images/left-chevron.png');
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    
+    
+}
+
+.botaoprevious{
+    background: none;
+    border: none;
 }
