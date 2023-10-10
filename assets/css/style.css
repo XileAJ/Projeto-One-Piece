@@ -30,7 +30,7 @@ main .personagem .imagem{
     object-fit: cover;
 }
 
-.conteudo{
+.conteudo {
     position: absolute;
     top: 0;
     left: 120px;

@@ -15,7 +15,7 @@
         top: -14%;
         max-width: 100vw;
         padding: 30px;
-
+        
     }
 
     .conteudo .nome-personagem {
@@ -47,14 +47,13 @@
     main .personagem .imagem {
         height: 50%;
         object-fit: cover;
-        
     }
 
     .conteudo .logo {
         width: 170px;
         height: 75px;
         justify-content: center;
-        
+        margin-top: 50px;
     }
 
     .conteudo {
@@ -63,25 +62,27 @@
         padding: 5px;
         max-width: 60%;
         margin-left: 86px;
-        margin-top: 55px;
+        
         display: flex;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        font-size: 18px;
+        /*text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);*/
         
     }
 
     .conteudo .nome-personagem {
-        font-size: 25px;
+        font-size: 30px;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        margin-bottom: 70px;
+        
+        
     }
+   
 
     .conteudo .descricao {
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         max-width: 100%;
         font-size: 16px;
         font-weight: 500;
-        
+        margin-top: 240px;
+        margin-bottom: -30px;      
         
     }
 
@@ -116,9 +117,9 @@
         justify-content: space-between;
         margin: 0;
         padding: 0;
-        padding-right: 32px;
-        padding-left: 32px;
-        padding-bottom: 20px;
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-bottom: 10px;
     }
 
     .paginacao .botaonext {
