@@ -12,11 +12,13 @@ botoes.forEach((botao, indice) => {
     const botaoSelecionado = document.querySelector(".botao.selecionado");
     botaoSelecionado.classList.remove("selecionado");
 
+    
     //passo 2 - adicionar a classe "selecionado" no botao que o usuario clicou
     botao.classList.add("selecionado");
 
      // Pausar a música de todos os personagens
      const musicas = document.querySelectorAll('.musica');
+     
      musicas.forEach(musica => musica.pause());
 
       // Obter a música associada ao botão clicado
