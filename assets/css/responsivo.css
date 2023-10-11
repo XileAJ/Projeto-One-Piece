@@ -52,25 +52,26 @@
     .conteudo .logo {
         width: 170px;
         height: 75px;
-        justify-content: center;        
+        justify-content: center;
+        margin-left: 20px;        
     }
 
     .conteudo {
-        top: -4%;
+        top: -5%;
         max-height: 1100px;
         padding: 5px;
         max-width: 60%;
         margin-left: 86px;
         display: flex;
         /*text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);*/
-        
+        text-align: center;
         
     }
 
     .conteudo .nome-personagem {
         font-size: 30px;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        margin-bottom: 200px;
+        margin-bottom: 180px;
     }
    
     .conteudo .descricao {
@@ -82,7 +83,9 @@
         overflow:auto;
         margin-top: 90px;
         padding-bottom: 20px;
+        margin-bottom: 25px;
         text-align: center;
+        
     }
    
     .descricao::-webkit-scrollbar {
