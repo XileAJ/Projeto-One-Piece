@@ -72,6 +72,8 @@
         font-size: 30px;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         margin-bottom: 180px;
+        width: 560px;
+        padding-right: 310px;
     }
    
     .conteudo .descricao {
@@ -85,7 +87,7 @@
         padding-bottom: 20px;
         margin-bottom: 25px;
         text-align: center;
-        
+       
     }
    
     .descricao::-webkit-scrollbar {

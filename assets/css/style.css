@@ -121,7 +121,7 @@ main .personagem .imagem{
     display: flexbox;
     width: 100%;
     margin-bottom: 15px;
-    padding-left: 1190px;
+    padding-left: 1350px;
 }
 .paginacao .botaonext{
     background-image: url('../images/right-arrow.png');
