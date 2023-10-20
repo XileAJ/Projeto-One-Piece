@@ -71,10 +71,10 @@
     }
 
     .conteudo .nome-personagem {
-        font-size: 23px;
+        font-size: 30px;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         margin-bottom: 163px;
-       
+        opacity: 0.6;
     }
    
     .conteudo .descricao {
