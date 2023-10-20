@@ -45,7 +45,27 @@
 
 @media (max-width: 425px) {
     main .personagem .imagem {
-        height: 50%;
+        height: 56%;
+        object-fit: cover;
+    }
+    #jinbe{
+        height: 62%;
+        object-fit: cover;
+    }
+    #law {
+        height: 60%;
+        object-fit: cover;
+    }
+    #apoo{
+        height: 52%;
+        object-fit: cover;
+    }
+    #urouge{
+        height: 60%;
+        object-fit: cover;
+    }
+    #kizaru{
+        height: 62%;
         object-fit: cover;
     }
 
@@ -71,9 +91,9 @@
     }
 
     .conteudo .nome-personagem {
-        font-size: 30px;
+        font-size: 28px;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        margin-bottom: 163px;
+        margin-bottom: 183px;
         opacity: 0.6;
     }
    
@@ -86,7 +106,7 @@
         overflow:auto;
         margin-top: 90px;
         padding-bottom: 20px;
-        margin-bottom: 25px;
+        margin-bottom: -15px;
         text-align: center;
        
     }
