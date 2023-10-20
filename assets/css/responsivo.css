@@ -73,7 +73,7 @@
     .conteudo .nome-personagem {
         font-size: 23px;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        margin-bottom: 140px;
+        margin-bottom: 160px;
        
     }
    
@@ -126,20 +126,20 @@
         justify-content: space-between;
         margin: 0;
         padding: 0;
-        padding-right: 75px;
-        padding-left: 75px;
+        padding-right: 70px;
+        padding-left: 70px;
         padding-bottom: 10px;
     }
 
     .paginacao .botaonext {
-        width: 32px;
-        height: 32px;
+        width: 30px;
+        height: 30px;
         
     }
 
     .paginacao .botaoprevious {
-        width: 32px;
-        height: 32px;
+        width: 30px;
+        height: 30px;
         
     }
 }
