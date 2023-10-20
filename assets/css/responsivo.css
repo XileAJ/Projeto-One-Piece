@@ -48,7 +48,30 @@
         height: 50%;
         object-fit: cover;
     }
-
+    #jinbe{
+        height: 56%;
+        object-fit: cover;
+    }
+    #dragon{
+        height: 55%;
+        object-fit: cover;
+    }
+    #law{
+        height: 53%;
+        object-fit: cover;
+    }
+    #apoo{
+        height: 48%;
+        object-fit: cover;
+    }
+    #urouge{
+        height: 54%;
+        object-fit: cover;
+    }
+    #kizaru{
+        height: 58%;
+        object-fit: cover;
+    }
     .conteudo .logo {
         width: 170px;
         height: 75px;
@@ -71,10 +94,10 @@
     }
 
     .conteudo .nome-personagem {
-        font-size: 23px;
+        font-size: 30px;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         margin-bottom: 163px;
-       
+        opacity: 0.6;
     }
    
     .conteudo .descricao {
