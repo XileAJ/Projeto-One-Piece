@@ -72,6 +72,26 @@
         height: 58%;
         object-fit: cover;
     }
+    #hancock{
+        height: 48%;
+        object-fit: cover;
+    }
+    #bon-clay{
+        height: 47%;
+        object-fit: cover;
+    }
+    #doflamingo{
+        height: 58%;
+        object-fit: cover;
+    }
+    #big-mom{
+        height: 55%;
+        object-fit: cover;
+    }
+    #kaido{
+        height: 58%;
+        object-fit: cover;
+    }
     .conteudo .logo {
         width: 170px;
         height: 75px;
