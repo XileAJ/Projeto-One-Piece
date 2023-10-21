@@ -51,7 +51,8 @@ const listas = [
     document.querySelectorAll('.lista.lista1, .lista.lista2'),
     document.querySelectorAll('.lista.lista3, .lista.lista4'),
     document.querySelectorAll('.lista.lista5, .lista.lista6'),
-    document.querySelectorAll('.lista.lista7, .lista.lista8')
+    document.querySelectorAll('.lista.lista7, .lista.lista8'),
+    document.querySelectorAll('.lista.lista9, .lista.lista10')
 ];
 
 let paginaAtual = 0;
