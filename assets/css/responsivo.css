@@ -45,10 +45,14 @@
 
 @media (max-width: 425px) {
     main .personagem .imagem {
-        height: 50%;
+        height: 52%;
         object-fit: cover;
     }
     #jinbe{
+        height: 56%;
+        object-fit: cover;
+    }
+    #mihawk{
         height: 56%;
         object-fit: cover;
     }
@@ -77,11 +81,15 @@
         object-fit: cover;
     }
     #bon-clay{
-        height: 47%;
+        height: 49%;
         object-fit: cover;
     }
     #doflamingo{
-        height: 58%;
+        height: 55%;
+        object-fit: cover;
+    }
+    #kuma{
+        height: 54%;
         object-fit: cover;
     }
     #big-mom{
@@ -103,21 +111,20 @@
     .conteudo {
         top: -5%;
         max-height: 1100px;
-        padding: 5px;
-        max-width: 60%;
-        margin-left: 86px;
+        padding: 3px;
+        max-width: 58%;
+        margin-left: 85px;
         display: flex;
-        /*text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);*/
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        justify-content: center;
         text-align: center;
-        
-        
     }
 
     .conteudo .nome-personagem {
-        font-size: 30px;
+        font-size: 27px;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         margin-bottom: 163px;
-        opacity: 0.6;
+        opacity: 0.7;
     }
 
     .conteudo .descricao {
@@ -128,7 +135,7 @@
         max-height: 350px;  
         overflow:auto;
         margin-top: 90px;
-        padding-bottom: 20px;
+        padding-bottom: 25px;
         margin-bottom: 25px;
         text-align: center;
     
@@ -172,17 +179,17 @@
         padding-right: 60px;
         padding-left: 60px;
         padding-bottom: 10px;
+        width: 100%;
+        
     }
 
     .paginacao .botaonext {
-        width: 30px;
-        height: 30px;
-        
+        width: 28px;
+        height: 28px;
     }
 
     .paginacao .botaoprevious {
-        width: 30px;
-        height: 30px;
-        
+        width: 28px;
+        height: 28px;     
     }
 }
