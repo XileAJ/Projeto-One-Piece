@@ -48,12 +48,29 @@
         height: 52%;
         object-fit: cover;
     }
+    #Luffy{
+        
+    }
     #jinbe{
         height: 56%;
         object-fit: cover;
     }
+    #Roger{
+        height: 59%;
+        object-fit: cover;
+    }
     #mihawk{
-        height: 56%;
+        height: 57%;
+        object-fit: cover;
+    }
+    #garpimg{
+       height: 53%;
+    }
+    #Garp{
+        margin-top: 20px;
+    }
+    #Moria{
+        height: 55%;
         object-fit: cover;
     }
     #dragon{
@@ -64,12 +81,20 @@
         height: 53%;
         object-fit: cover;
     }
-    #apoo{
+    #Bonney{
         height: 48%;
+        object-fit: cover;
+    }
+    #apoo{
+        height: 53%;
         object-fit: cover;
     }
     #urouge{
         height: 54%;
+        object-fit: cover;
+    }
+    #Sentomaru{
+        height: 50%;
         object-fit: cover;
     }
     #kizaru{
@@ -77,28 +102,60 @@
         object-fit: cover;
     }
     #hancock{
-        height: 48%;
+        height: 52%;
         object-fit: cover;
     }
+    #hancocknome{
+        margin-bottom: 120px;
+        margin-top: 35px;
+    }
     #bon-clay{
-        height: 49%;
+        height: 57%;
         object-fit: cover;
     }
     #doflamingo{
-        height: 55%;
-        object-fit: cover;
-    }
-    #kuma{
         height: 54%;
         object-fit: cover;
+    }
+    #doflamingonome{
+        margin-bottom: 100px;
+        margin-top: 35px;
+    }
+    #kuma{
+        height: 55%;
+        object-fit: cover;
+        margin-top: 35px;
+    }
+    #Ceaser{
+        margin-top: 15px;
+    }
+    #Cavindish{
+        height: 40%;  
+        object-fit: cover;
+    }
+    #cavendishnome{
+        margin-bottom: 90px;
+        margin-top: 35px;
+    }
+    #Jack{
+        margin-top: 35px;
+        margin-bottom: 120px;
     }
     #big-mom{
         height: 55%;
         object-fit: cover;
     }
+    #King{
+        margin-bottom: 130px;
+        margin-top: 30px;
+    }
     #kaido{
         height: 58%;
         object-fit: cover;
+    }
+    #Nika{
+        margin-bottom: 100px;
+        margin-top: 30px;
     }
     .conteudo .logo {
         width: 170px;
@@ -121,7 +178,7 @@
     }
 
     .conteudo .nome-personagem {
-        font-size: 27px;
+        font-size: 26px;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         margin-bottom: 163px;
         opacity: 0.7;
